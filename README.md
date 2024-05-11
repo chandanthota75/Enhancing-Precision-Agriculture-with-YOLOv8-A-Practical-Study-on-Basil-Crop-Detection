@@ -55,6 +55,8 @@ This readme serves as a comprehensive guide to the project, outlining the method
 
 **6. Inference and Visualization**
 
+Once the model was successfully trained, we subjected it to rigorous evaluation using the validation dataset. The evaluation process involved running the model on the validation dataset and assessing its performance against the ground truth annotations. The results were meticulously calculated and presented, offering insights into the model's precision, recall, f1 score and various other metrics that gauge its proficiency in basil crop detection.
+
 **Validation Results on Evaluation Metrics**
 
 | Metric    | Precision | Recall | F1 Score | mAP50 | mAP50-95 |
