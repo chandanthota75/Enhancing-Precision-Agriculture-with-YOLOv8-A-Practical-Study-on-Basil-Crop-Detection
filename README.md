@@ -13,9 +13,10 @@ This readme serves as a comprehensive guide to the project, outlining the method
     2. Set up a virtual environment to manage project dependencies effectively. Tools like `venv` or `conda` can be used. Refer to their documentation for specific instructions.
 * **Libraries:**
     1. Install the necessary Python libraries using `pip`:
-        * `ultralytics` (the object detection model)
+        * `seaborn` (for statistical data visualization)
+        * `scikit-learn` (for machine learning algorithms and tools)
         * `opencv-python` (for image processing)
-        * `numpy`, and `matplotlib` (for data processing and visualization)
+        * `ultralytics` (the object detection model)
 
 **2. Data Acquisition/Collection**
 
@@ -28,11 +29,14 @@ This readme serves as a comprehensive guide to the project, outlining the method
 * **Resizing Images and Annotations:**
     1. Resizing all the images in the dataset to a uniform size, such as 640 x 480 pixels (YOLOv8 image format).
     2. Adjust the corresponding annotations (bounding boxes) to reflect the resized image dimensions.
+* **Data Normalization:**
+    1. Normalize the pixel values of resized images to a common scale (e.g., [0, 1] range) to ensure consistency in input data for the model.
+    2. Typical normalization techniques include dividing pixel values by 255 (for 8-bit images) or using z-score normalization based on dataset statistics.
 * **Data Split:**
-    1. Divide your dataset into two distinct subsets: a training set (typically around 80% of the data) and a validation set (remaining 20%).
+    1. Divide your dataset into two distinct subsets: a training set (typically around 80% of the data) and a validation set (remaining 20%). (171 images for training and 38 images for testing)
     2. The training set is used to train the YOLOv8 model, while the validation set is used to evaluate its performance on unseen data.
 
-**4. Model Building**
+**4. Model Building and Evaluation**
 
 * **YOLOv8 Model Configuration:**
     1. Utilize the `yolov8` library to configure and build the YOLOv8 model.
@@ -43,8 +47,6 @@ This readme serves as a comprehensive guide to the project, outlining the method
     1. Train the YOLOv8 model using the prepared training dataset.
     2. The model learns to identify basil crops within the images based on the provided annotations.
     3. Training typically involves iterating through the training data multiple times.
-
-**5. Model Evaluation**
 
 * **Performance Metrics:**
     1. Evaluate the model's performance on the validation set using metrics like:
@@ -92,7 +94,6 @@ This addition underscores the meticulous evaluation process and ensures a thorou
 <div style="text-align: center;">
   <img src="images in paper/Basil Crop Major Metrics.png" alt="Evaluation metrics over Epochs" style="width: 700px;">
 </div>
-
 
 ## Conclusion
 
