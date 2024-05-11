@@ -1,0 +1,1 @@
+# Enhancing-Precision-Agriculture-with-YOLOv8-A-Practical-Study-on-Basil-Crop-Detection
