@@ -80,7 +80,7 @@ These loss metrics serve as fundamental pillars in our quest to optimize the YOL
 
 ![Basil Crop Losses](images in paper/Basil Crop Losses.png)
 <figure>
-  <img src="images in paper/Basil Crop Losses.pngg" alt="Basil Crop Losses" style="width: 400px;"/>
+  <img src="images in paper/Basil Crop Losses.png" alt="Basil Crop Losses" style="width: 400px;"/>
   <figcaption>Figure: Model Loss evalution over Epochs</figcaption>
 </figure>
 
