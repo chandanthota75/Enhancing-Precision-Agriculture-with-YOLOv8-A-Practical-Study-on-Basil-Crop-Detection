@@ -79,19 +79,22 @@ In our study of basil crop detection with YOLOv8, we meticulously track the evol
 
 These loss metrics serve as fundamental pillars in our quest to optimize the YOLOv8 model for basil crop detection. They encapsulate the model's ability to precisely localize and classify basil crops, and the unique deformable losses enhance its spatial awareness. As we delve into the validation results, these losses provide granular insights into the model's accuracy and robustness, reinforcing its practical viability in real-world precision agriculture scenarios.
 
-<figure>
-  <img src="images in paper/Basil Crop Losses.png" alt="Basil Crop Losses">
+<figure style="text-align: center;">
+  <img src="images in paper/Basil Crop Losses.png" alt="Loss Evalution over Epochs" style="width: 650px;">
+  <figcaption style="font-style: italic;">Figure 1: Basil Crop Losses - Visual Summary</figcaption>
 </figure>
 
 To comprehensively evaluate the performance of our YOLOv8 model in basil crop detection, we present a visual summary of true and predicted images with corresponding bounding box annotations. These annotated images highlight the precision and recall of our model by showcasing the accuracy with which it identifies basil crops within the dataset. The visual representation of the detection results serves as a vital component in assessing the real-world applicability of our approach, providing valuable insights into the model's ability to delineate basil crops across varying growth stages and orientations.
 
 Including true and predicted images with annotations offers a tangible means of gauging the model's accuracy and efficiency in basil crop detection, strengthening the empirical evidence of our findings. The visual summary contributes to the overall transparency and interpretability of our research, enabling readers to assess the practical implications of our YOLOv8-based approach in precision agriculture.
 
-This addition underscores the meticulous evaluation process and ensures a thorough comprehension of the model's performance, making our research more accessible and valuable to both the scientific community and practitioners in the field of precision agriculture
+This addition underscores the meticulous evaluation process and ensures a thorough comprehension of the model's performance, making our research more accessible and valuable to both the scientific community and practitioners in the field of precision agriculture.
 
-<figure>
-  <img src="images in paper/Basil Crop Major Metrics.png" alt="Evaltuion metrics over Epochs">
+<figure style="text-align: center;">
+  <img src="images in paper/Basil Crop Major Metrics.png" alt="Evaluation metrics over Epochs" style="width: 650px;">
+  <figcaption style="font-style: italic;">Figure 2: Evaluation Metrics over Epochs</figcaption>
 </figure>
+
 
 ## Conclusion
 
