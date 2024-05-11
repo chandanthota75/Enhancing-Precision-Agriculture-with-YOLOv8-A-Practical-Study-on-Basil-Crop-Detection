@@ -48,6 +48,10 @@ This readme serves as a comprehensive guide to the project, outlining the method
     2. The model learns to identify basil crops within the images based on the provided annotations.
     3. Training typically involves iterating through the training data multiple times.
 
+<div style="text-align: center;">
+  <img src="images in paper/Basil Crop Yaml Format.png" alt="Basil Crop Yaml Format" style="width: 700px;">
+</div>
+
 * **Performance Metrics:**
     1. Evaluate the model's performance on the validation set using metrics like:
         * Mean Average Precision (mAP) at different IoU thresholds.
