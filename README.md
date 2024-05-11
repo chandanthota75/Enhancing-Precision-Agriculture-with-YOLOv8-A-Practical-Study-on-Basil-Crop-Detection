@@ -73,6 +73,17 @@ The above concise table summarizes the major validation metrics, highlighting th
 
 The below table succinctly summarizes the training and validation losses, which are vital indicators of your YOLOv8 model's performance. These results provide insights into the efficiency of the model in terms of making predictions that closely align with the ground truth annotations.
 
+In our study of basil crop detection with YOLOv8, we meticulously track the evolution of box losses, classification (cls) losses, and deformable (dfl) losses during the training and validation phases. The significance of these loss metrics lies in their ability to quantify various aspects of our model's performance. Train and validation box losses reflect the model's capacity to accurately localize basil crops within images, guiding the refinement of bounding box coordinates. Simultaneously, train and validation classification losses assess the model's aptitude for correctly categorizing basil crops, ensuring their distinction from background elements. Furthermore, the inclusion of deformable losses adds a layer of spatial adaptability, essential for handling the diverse growth stages and orientations of basil crops in the real-world context. By continuously monitoring these losses, we gain a nuanced perspective of our YOLOv8 model's precision and resilience, underscoring its suitability for the demanding realm of precision agriculture.
+
+These loss metrics serve as fundamental pillars in our quest to optimize the YOLOv8 model for basil crop detection. They encapsulate the model's ability to precisely localize and classify basil crops, and the unique deformable losses enhance its spatial awareness. As we delve into the validation results, these losses provide granular insights into the model's accuracy and robustness, reinforcing its practical viability in real-world precision agriculture scenarios.
+
+
+![Basil Crop Losses](images in paper/Basil Crop Losses.png)
+<figure>
+  <img src="images in paper/Basil Crop Losses.pngg" alt="Basil Crop Losses" style="width: 400px;"/>
+  <figcaption>Figure: Model Loss evalution over Epochs</figcaption>
+</figure>
+
 ## Conclusion
 
 This project successfully demonstrated the potential of YOLOv8 for automating basil crop detection in precision agriculture applications. The model achieved excellent performance metrics on the validation set, indicating its ability to accurately identify basil crops within diverse field conditions. By leveraging this technology, farmers can gain valuable insights into crop health and distribution, enabling them to optimize resource allocation and improve overall agricultural efficiency.
