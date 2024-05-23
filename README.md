@@ -58,3 +58,5 @@ This readme serves as a comprehensive guide to the project, outlining the method
         * Precision and Recall.
         * F1 Score.
     2. Analyze training and validation loss values (box loss and classification loss).
+
+[![DOI](https://zenodo.org/badge/799295896.svg)](https://zenodo.org/doi/10.5281/zenodo.11262948)
