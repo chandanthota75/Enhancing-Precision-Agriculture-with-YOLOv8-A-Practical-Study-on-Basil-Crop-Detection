@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Thota"
+  given-names: "Chandan"
+title: "Enhancing-Precision-Agriculture-with-YOLOv8-A-Practical-Study-on-Basil-Crop-Detection"
+version: 0.1.0
+doi: 10.5281/zenodo.1234
+date-released: 2024-05-23
+url: "https://github.com/chandanthota75/Enhancing-Precision-Agriculture-with-YOLOv8-A-Practical-Study-on-Basil-Crop-Detection"
